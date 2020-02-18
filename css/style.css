@@ -21,14 +21,31 @@ html {background: #ffffff; font-family:"Times New Roman", Times, serif; font-siz
         color: #444;
     }
 
-    #name, #profile, #pendidikan
+    .sectionTitle, .sectionContent {
+        float: none;
+        width: 100%;
+    }
+    
+    .sectionTitle {
+        margin-left: -2px;
+        font-size: 1em;
+    }
+
+    #name, #contactDetails {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
 
     #profile ul li a, a[href^=tel] {
         color: #444; 
         text-decoration: none;
-        -webkit-transition: all .3s ease-in;
-        -moz-transition: all .3s ease-in;
-        -o-transition: all .3s ease-in;
-        -ms-transition: all .3s ease-in;
         transition: all .3s ease-in;
+        font-size: 14px;
+    }
+    #pendidikan ul li a, a[href^=tel] {
+        color: #0a0a0a; 
+        text-decoration: none;
+        transition: all .3s ease-in;
+        font-size: 14px;
     }
